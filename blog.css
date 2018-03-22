@@ -49,3 +49,9 @@ body{
 	font-weight: bold;
 	text-decoration: none; 
 }
+.contenedor{
+	width: 1000px;
+	border: 1px solid red;
+	margin: auto;
+	background: #EEEEEE;
+}
