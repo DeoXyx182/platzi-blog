@@ -71,6 +71,7 @@ body{
 	background-color: #333333;
 	color: #EEEEEE;
 	border-radius: 4px;
+	cursor: pointer;
 }
 .busqueda input{
 	margin: 0 4px;
