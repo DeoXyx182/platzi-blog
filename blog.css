@@ -50,10 +50,13 @@ body{
 	text-decoration: none; 
 }
 .contenedor{
+	background: #EEEEEE;
+}
+.portada{
 	width: 1000px;
 	border: 1px solid red;
 	margin: auto;
-	background: #EEEEEE;
+	position: relative;
 }
 .busqueda{
 	margin: 6px 0;
@@ -80,4 +83,43 @@ body{
 	border: none;
 	border-radius: 4px;
 	text-decoration: none;
+}
+.articulo-principal figure{
+	height: 560px;
+	width: 1000px;
+	margin: 0;
+}
+.descripcion-principal{
+	padding: 0 24px;
+	height: 166px;
+	width: 506px;
+	position: absolute;
+	/*background: #EEEEEE;*/
+	background-color: rgba(238,238,238, 0.8);
+	color: #323232;
+	opacity: 0.8;
+	left: 20px;
+	bottom: 30px;
+}
+.descripcion-principal h2{
+	font-family: 'Lato', sans-serif;
+}
+.datos-principal{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.datos-principal span{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+.datos{
+	display: flex;
+	align-items: center;
+}
+.datos img{
+	margin-right: 12px;
+}
+.fecha{
+	display: inline-block;
 }
