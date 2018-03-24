@@ -23,8 +23,8 @@
 		</nav>
 		<button class="boton-sesion">Inicia sesión</button>
 	</header>
-	<section class="contenedor"> <!-- Todo el contenido -->
-		<div class="portada">  <!-- Portada: búsqueda y artículo principal -->
+	<section class="contenedor-portada"> <!-- Todo el contenido -->
+		<div class="portada contenedor">  <!-- Portada: búsqueda y artículo principal -->
 			<div class="busqueda">  <!-- Barra de búsqueda -->
 				<input type="text" placeholder="Buscar..." />
 				<button><i class="material-icons">search</i></button>
@@ -39,7 +39,7 @@
 							<span>Leticia Ferrer Mur</span>
 						</div>
 						<div class="fecha">							
-							<span>marzo 23 2018</span>
+							<span>23 marzo 2018</span>
 						</div>
 					</div>
 				</div>
@@ -49,11 +49,188 @@
 			</article>
 		</div>
 	</section>
-	<section class="articulos-grilla"> <!-- Artículos pequeños -->
-		<article class="articulo-miniatura">
-			
+	<section class="articulos-grilla contenedor"> <!-- Artículos pequeños -->
+		<article class="articulo-mini">
+			<a href="#">
+				<img src="images/art1.jpg" alt="C#" />
+				<h3 class="titulo-principal">Como definir un Namespace en C#</h3>
+			</a>
+			<hr />
+			<div class="datos-mini">
+				<span class="datos">Juan Castro Lurita</span>						
+				<span class="fecha">22 marzo 2018</span>
+			</div>
 		</article>
+		<article class="articulo-mini">
+			<a href="#">
+				<img src="images/art2.jpg" alt="C#" />
+				<h3 class="titulo-principal">Todo lo que anunció Facebook en F8</h3>
+			</a>
+			<hr />
+			<div class="datos-mini">
+				<span class="datos">Winiberto</span>						
+				<span class="fecha">21 marzo 2018</span>
+			</div>
+		</article>
+
+		<article class="articulo-mini">
+			<a href="#">
+				<img src="images/art3.jpg" alt="C#" />
+				<h3 class="titulo-principal">Lo nuevo en Android Studio 2.0</h3>
+			</a>
+			<hr />
+			<div class="datos-mini">
+				<span class="datos">Uriel Ramírez</span>						
+				<span class="fecha">20 marzo 2018</span>
+			</div>
+		</article>
+		
+		<article class="articulo-mini">
+			<a href="#">
+				<img src="images/art4.jpg" alt="C#" />
+				<h3 class="titulo-principal">Lo que tienes que saber de React 15</h3>
+			</a>
+			<hr />
+			<div class="datos-mini">
+				<span class="datos">Leonidas Esteban</span>
+				<span class="fecha">19 marzo 2018</span>
+			</div>
+		</article>
+		
+		<article class="articulo-mini">
+			<a href="#">
+				<img src="images/art5.jpg" alt="C#" />
+				<h3 class="titulo-principal">Paso a paso: cómo trabajar con JSON en Go</h3>
+			</a>
+			<hr />
+			<div class="datos-mini">
+				<span class="datos">Juan Castro Lurita</span>
+				<span class="fecha">18 marzo 2018</span>
+			</div>
+		</article>
+		
+		<article class="articulo-mini">
+			<a href="#">
+				<img src="images/art6.jpg" alt="C#" />
+				<h3 class="titulo-principal">5 libros que deberías leer para aprender Diseño de Producto</h3>
+			</a>
+			<hr />
+			<div class="datos-mini">
+				<span class="datos">Luis "Lulo" López Méndez</span>
+				<span class="fecha">17 marzo 2018</span>
+			</div>
+		</article>
+		
+		<article class="articulo-mini">
+			<a href="#">
+				<img src="images/art7.jpg" alt="C#" />
+				<h3 class="titulo-principal">Platzi Stream cambia de horario esta semana</h3>
+			</a>
+			<hr />
+			<div class="datos-mini">
+				<span class="datos">Anna Heim</span>
+				<span class="fecha">16 marzo 2018</span>
+			</div>
+		</article>
+		
+		<article class="articulo-mini">
+			<a href="#">
+				<img src="images/art8.jpg" alt="C#" />
+				<h3 class="titulo-principal">5 recomendaciones para proteger datos personales en tu negocio</h3>
+			</a>
+			<hr />
+			<div class="datos-mini">
+				<span class="datos">Germán Realpe Delgado</span>
+				<span class="fecha">15 marzo 2018</span>
+			</div>
+		</article>
+		
+		<article class="articulo-mini">
+			<a href="#">
+				<img src="images/art9.jpg" alt="C#" />
+				<h3 class="titulo-principal">10 gemas para desarrollar con Ruby on Rails</h3>
+			</a>
+			<hr />
+			<div class="datos-mini">
+				<span class="datos">Juan Castro Lurita</span>
+				<span class="fecha">14 marzo 2018</span>
+			</div>
+		</article>
+		
+		<article class="articulo-mini">
+			<a href="#">
+				<img src="images/art10.jpg" alt="C#" />
+				<h3 class="titulo-principal">Lo que tienes que saber sobre Google Analytics 360 Suite</h3>
+			</a>
+			<hr />
+			<div class="datos-mini">
+				<span class="datos">Anna Heim</span>
+				<span class="fecha">13 marzo 2018</span>
+			</div>
+		</article>
+		
+		<article class="articulo-mini">
+			<a href="#">
+				<img src="images/art11.jpg" alt="C#" />
+				<h3 class="titulo-principal">Primeras impresiones de Adobe Experience Design</h3>
+			</a>
+			<hr />
+			<div class="datos-mini">
+				<span class="datos">Jennifer López</span>
+				<span class="fecha">12 marzo 2018</span>
+			</div>
+		</article>
+		
+		<article class="articulo-mini">
+			<a href="#">
+				<img src="images/art12.jpg" alt="C#" />
+				<h3 class="titulo-principal">El origen de Ruby on Rails, el framework orientado a la felicidad</h3>
+			</a>
+			<hr />
+			<div class="datos-mini">
+				<span class="datos">Yare Saavedra</span>
+				<span class="fecha">11 marzo 2018</span>
+			</div>
+		</article>
+		
+		<article class="articulo-mini">
+			<a href="#">
+				<img src="images/art13.jpg" alt="C#" />
+				<h3 class="titulo-principal">Aprende a crear la iconografía perfecta</h3>
+			</a>
+			<hr />
+			<div class="datos-mini">
+				<span class="datos">Yare Saavedra</span>
+				<span class="fecha">10 marzo 2018</span>
+			</div>
+		</article>
+		
+		<article class="articulo-mini">
+			<a href="#">
+				<img src="images/art14.jpg" alt="C#" />
+				<h3 class="titulo-principal">Tips de marketing digital para músicos</h3>
+			</a>
+			<hr />
+			<div class="datos-mini">
+				<span class="datos">Yare Saavedra</span>
+				<span class="fecha">9 marzo 2018</span>
+			</div>
+		</article>
+		
+		<article class="articulo-mini">
+			<a href="#">
+				<img src="images/art15.jpg" alt="C#" />
+				<h3 class="titulo-principal">Agrega 3D Touch y Force Touch a tus proyectos web</h3>
+			</a>
+			<hr />
+			<div class="datos-mini">
+				<span class="datos">Yare Saavedra</span>
+				<span class="fecha">8 marzo 2018</span>
+			</div>
+		</article>
+
 	</section>
+
 	<section class="paginacion"> <!-- Barra de paginación -->
 		
 	</section>

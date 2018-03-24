@@ -50,12 +50,14 @@ body{
 	text-decoration: none; 
 }
 .contenedor{
+	width: 1000px;
+	border: 1px solid red;
+	margin: auto;	
+}
+.contenedor-portada{
 	background: #EEEEEE;
 }
 .portada{
-	width: 1000px;
-	border: 1px solid red;
-	margin: auto;
 	position: relative;
 }
 .busqueda{
@@ -103,6 +105,7 @@ body{
 }
 .descripcion-principal h2{
 	font-family: 'Lato', sans-serif;
+	font-size: 26px;
 }
 .datos-principal{
 	display: flex;
@@ -122,4 +125,32 @@ body{
 }
 .fecha{
 	display: inline-block;
+}
+.articulos-grilla{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-flow: row wrap;
+}
+.articulo-mini{
+	border: 1px solid blue;
+	width: 318px;
+	margin-top: 30px;
+}
+.articulo-mini a{
+	text-decoration: none;
+	color: #323232;
+}
+.articulo-mini h3{
+	margin: 0 0 16px 0;
+	font-size: 24px;
+}
+.datos-mini{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.datos-mini span{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px
 }
